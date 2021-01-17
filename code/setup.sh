@@ -4,7 +4,7 @@ wget -P ../binx/ ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi
 tar -xf ../binx/ncbi-blast-2.11.0+-x64-linux.tar.gz -C ../binx/
 rm ../binx/ncbi-blast-2.11.0+-x64-linux.tar.gz
 
-# Download SwissProt sequences in the data folder (-P data/)
+# Download SwissProt sequence
 echo "Downloading SwissProt DB..."
 wget -P ../data/db/ ftp://ftp.expasy.org/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz
 gunzip ../data/db/uniprot_sprot.fasta.gz
@@ -42,8 +42,8 @@ echo "Getting CATH DB..."
 wget -P ../data/ ftp://orengoftp.biochem.ucl.ac.uk/cath/releases/daily-release/newest/cath-b-newest-all.gz
 wget -P ../data/ ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/csv/pdb_chain_cath_uniprot.csv.gz
 
-# Get taxonomy DB
-echo "Getting taxonomy DB..."
-wget -P ../data https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz
+# Get SwissProt
+echo "Getting SwissProt DB .xml file..."
+wget -P ../data/ ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz
 
 echo "Done."
