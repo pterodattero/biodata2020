@@ -1,0 +1,2070 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.11.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "../data/msa/uniprot_sprot.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "P07237|Homo sapiens (Human)|PF00085|Thioredoxin domain|26-131",
+          "query_len": 106,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301601",
+                  "accession": "301601",
+                  "title": "sp|P07237|PDIA1_HUMAN Protein disulfide-isomerase OS=Homo sapiens OX=9606 GN=P4HB PE=1 SV=3"
+                }
+              ],
+              "len": 508,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.476,
+                  "score": 563,
+                  "evalue": 1.76265e-70,
+                  "identity": 106,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 26,
+                  "hit_to": 131,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301604",
+                  "accession": "301604",
+                  "title": "sp|Q5R5B6|PDIA1_PONAB Protein disulfide-isomerase OS=Pongo abelii OX=9601 GN=P4HB PE=2 SV=1"
+                }
+              ],
+              "len": 508,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.09,
+                  "score": 562,
+                  "evalue": 2.23178e-70,
+                  "identity": 106,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 26,
+                  "hit_to": 131,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301602",
+                  "accession": "301602",
+                  "title": "sp|Q2HWU2|PDIA1_MACFU Protein disulfide-isomerase OS=Macaca fuscata fuscata OX=9543 GN=P4HB PE=2 SV=1"
+                }
+              ],
+              "len": 510,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.09,
+                  "score": 562,
+                  "evalue": 2.54535e-70,
+                  "identity": 106,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 133,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301606",
+                  "accession": "301606",
+                  "title": "sp|P04785|PDIA1_RAT Protein disulfide-isomerase OS=Rattus norvegicus OX=10116 GN=P4hb PE=1 SV=2"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.157,
+                  "score": 544,
+                  "evalue": 1.02654e-67,
+                  "identity": 102,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 133,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLKKSNFAEALAAHNYLLVEFYAPWCGHCKALAPEYAKAAAKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFKNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVL+KSNFAEALAAH YLLVEFYAPWCGHCKALAPEYAKAA KLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFF+NGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301603",
+                  "accession": "301603",
+                  "title": "sp|P09103|PDIA1_MOUSE Protein disulfide-isomerase OS=Mus musculus OX=10090 GN=P4hb PE=1 SV=2"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.157,
+                  "score": 544,
+                  "evalue": 1.06005e-67,
+                  "identity": 102,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 133,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLKKSNFEEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAAKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFKNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVL+KSNF EALAAHKYLLVEFYAPWCGHCKALAPEYAKAA KLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFF+NGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301600",
+                  "accession": "301600",
+                  "title": "sp|Q8R4U2|PDIA1_CRIGR Protein disulfide-isomerase OS=Cricetulus griseus OX=10029 GN=P4HB PE=2 SV=1"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.157,
+                  "score": 544,
+                  "evalue": 1.14255e-67,
+                  "identity": 102,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 133,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLKKSNFAEALAAHNYLLVEFYAPWCGHCKALAPEYAKAAAKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFKNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVL+KSNFAEALAAH YLLVEFYAPWCGHCKALAPEYAKAA KLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFF+NGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301598",
+                  "accession": "301598",
+                  "title": "sp|P05307|PDIA1_BOVIN Protein disulfide-isomerase OS=Bos taurus OX=9913 GN=P4HB PE=1 SV=1"
+                }
+              ],
+              "len": 510,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 213.386,
+                  "score": 542,
+                  "evalue": 1.89114e-67,
+                  "identity": 102,
+                  "positive": 103,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 133,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLHKGNFDEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFKNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVL K NF EALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFF+NGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301605",
+                  "accession": "301605",
+                  "title": "sp|P21195|PDIA1_RABIT Protein disulfide-isomerase OS=Oryctolagus cuniculus OX=9986 GN=P4HB PE=2 SV=1"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 210.69,
+                  "score": 535,
+                  "evalue": 2.14517e-66,
+                  "identity": 100,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 132,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLKSSNFAEELAAHKHLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSDIRLAKVDATEESDLAQQYGVRGYPTIKFFKNGDTASPKEYTAGREADDIVNWLKK",
+                  "midline": "VLVL+ SNFAE LAAHK+LLVEFYAPWCGHCKALAPEYAKAAGKLKAEGS+IRLAKVDATEESDLAQQYGVRGYPTIKFF+NGDTASPKEYTAGREADDIVNWLKK"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301599",
+                  "accession": "301599",
+                  "title": "sp|P09102|PDIA1_CHICK Protein disulfide-isomerase OS=Gallus gallus OX=9031 GN=P4HB PE=1 SV=3"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 196.823,
+                  "score": 499,
+                  "evalue": 5.86258e-61,
+                  "identity": 91,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 31,
+                  "hit_to": 136,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLRAANFEQALAAHRHLLVEFYAPWCGHCKALAPEYAKAAAQLKAEGSEIRLAKVDATEEAELAQQFGVRGYPTIKFFRNGDKAAPREYTAGREADDIVSWLKK",
+                  "midline": "VLVLR +NF +ALAAH++LLVEFYAPWCGHCKALAPEYAKAA +LKAEGSEIRLAKVDATEE++LAQQ+GVRGYPTIKFFRNGD A+P+EYTAGREADDIV+WLKK"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301587",
+                  "accession": "301587",
+                  "title": "sp|Q17770|PDI2_CAEEL Protein disulfide-isomerase 2 OS=Caenorhabditis elegans OX=6239 GN=pdi-2 PE=1 SV=1"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.124,
+                  "score": 357,
+                  "evalue": 2.83767e-40,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 25,
+                  "hit_to": 127,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VIVLTKDNFDEVINGNEFILVEFYAPWCGHCKSLAPEYAKAATQLKEEGSDIKLGKLDATVHGEVSSKFEVRGYPTLKLFRNG---KPQEYNGGRDHDSIIAWLKK",
+                  "midline": "V+VL K NF E +  ++++LVEFYAPWCGHCK+LAPEYAKAA +LK EGS+I+L K+DAT   +++ ++ VRGYPT+K FRNG    P+EY  GR+ D I+ WLKK"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301649",
+                  "accession": "301649",
+                  "title": "sp|P54399|PDI_DROME Protein disulfide-isomerase OS=Drosophila melanogaster OX=7227 GN=Pdi PE=2 SV=1"
+                }
+              ],
+              "len": 496,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.74295e-39,
+                  "identity": 66,
+                  "positive": 83,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 29,
+                  "hit_to": 131,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVATVDNFKQLIADNEFVLVEFYAPWCGHCKALAPEYAKAAQQLAEKESPIKLAKVDATVEGELAEQYAVRGYPTLKFFRSG---SPVEYSGGRQAADIIAWVTK",
+                  "midline": "VLV    NF + +A ++++LVEFYAPWCGHCKALAPEYAKAA +L  + S I+LAKVDAT E +LA+QY VRGYPT+KFFR+G   SP EY+ GR+A DI+ W+ K"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301609",
+                  "accession": "301609",
+                  "title": "sp|Q5RCH2|PDIA2_PONAB Protein disulfide-isomerase A2 OS=Pongo abelii OX=9601 GN=PDIA2 PE=2 SV=1"
+                }
+              ],
+              "len": 525,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.568,
+                  "score": 327,
+                  "evalue": 6.5396e-36,
+                  "identity": 59,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 44,
+                  "hit_to": 149,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "ILVLSRHTLGLALREHPALLVEFYAPWCGHCQALAPEYSKAAAVLAAESSVVMLAKVDGPAQPELAEEFGVTEYPTLKFFRDGNRTHPEEYTGPREAEGIAEWLRR",
+                  "midline": "+LVL +     AL  H  LLVEFYAPWCGHC+ALAPEY+KAA  L AE S + LAKVD   + +LA+++GV  YPT+KFFR+G+   P+EYT  REA+ I  WL++"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301578",
+                  "accession": "301578",
+                  "title": "sp|Q17967|PDI1_CAEEL Protein disulfide-isomerase 1 OS=Caenorhabditis elegans OX=6239 GN=pdi-1 PE=3 SV=1"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 1.87432e-35,
+                  "identity": 60,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 25,
+                  "hit_to": 127,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLVLTESNFEETINGNEFVLVKFYAPWCVHCKSLAPKYDEAADLLKEEGSDIKLAKVDATENQALASKFEVRGYPTILYFKSG---KPTKYTGGRATAQIVDWVKK",
+                  "midline": "VLVL +SNF E +  ++++LV+FYAPWC HCK+LAP+Y +AA  LK EGS+I+LAKVDATE   LA ++ VRGYPTI +F++G    P +YT GR    IV+W+KK"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301607",
+                  "accession": "301607",
+                  "title": "sp|Q13087|PDIA2_HUMAN Protein disulfide-isomerase A2 OS=Homo sapiens OX=9606 GN=PDIA2 PE=1 SV=2"
+                }
+              ],
+              "len": 525,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 2.44325e-35,
+                  "identity": 58,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 44,
+                  "hit_to": 149,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "ILVLSRHTLGLALREHPALLVEFYAPWCGHCQALAPEYSKAAAVLAAESMVVTLAKVDGPAQRELAEEFGVTEYPTLKFFRNGNRTHPEEYTGPRDAEGIAEWLRR",
+                  "midline": "+LVL +     AL  H  LLVEFYAPWCGHC+ALAPEY+KAA  L AE   + LAKVD   + +LA+++GV  YPT+KFFRNG+   P+EYT  R+A+ I  WL++"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301573",
+                  "accession": "301573",
+                  "title": "sp|Q9FF55|PDI14_ARATH Protein disulfide isomerase-like 1-4 OS=Arabidopsis thaliana OX=3702 GN=PDIL1-4 PE=1 SV=1"
+                }
+              ],
+              "len": 597,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.946,
+                  "score": 315,
+                  "evalue": 5.10613e-34,
+                  "identity": 57,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 105,
+                  "hit_to": 205,
+                  "align_len": 106,
+                  "gaps": 5,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VVVIKERNFTDVIENNQYVLVEFYAPWCGHCQSLAPEYAAAATELKEDG--VVLAKIDATEENELAQEYRVQGFPTLLFFVDGEH---KPYTGGRTKETIVTWVKK",
+                  "midline": "V+V+++ NF + +  ++Y+LVEFYAPWCGHC++LAPEYA AA +LK +G  + LAK+DATEE++LAQ+Y V+G+PT+ FF +G+    K YT GR  + IV W+KK"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301648",
+                  "accession": "301648",
+                  "title": "sp|Q9XF61|PDI_DATGL Protein disulfide-isomerase OS=Datisca glomerata OX=34297 GN=PDI PE=2 SV=1"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.34219e-32,
+                  "identity": 59,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 35,
+                  "hit_to": 141,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDKSNFFDTVSKHNFIVVEFYAPWCGHCKKLAPEYEKAASILSSHDPPVILAKVDANEEANKELASEFEVRGFPTIKILRNGGKIV-QEYKGPRDADGIVDYLKK",
+                  "midline": "VL L KSNF + ++ H +++VEFYAPWCGHCK LAPEY KAA  L +    + LAKVDA EE++  LA ++ VRG+PTIK  RNG     +EY   R+AD IV++LKK"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301568",
+                  "accession": "301568",
+                  "title": "sp|Q9XI01|PDI11_ARATH Protein disulfide isomerase-like 1-1 OS=Arabidopsis thaliana OX=3702 GN=PDIL1-1 PE=1 SV=1"
+                }
+              ],
+              "len": 501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 1.19837e-31,
+                  "identity": 58,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 32,
+                  "hit_to": 138,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEES--DLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDHTNFTDTINKHDFIVVEFYAPWCGHCKQLAPEYEKAASALSSNVPPVVLAKIDASEETNREFATQYEVQGFPTIKIFRNGGKAV-QEYNGPREAEGIVTYLKK",
+                  "midline": "VL L  +NF + +  H +++VEFYAPWCGHCK LAPEY KAA  L +    + LAK+DA+EE+  + A QY V+G+PTIK FRNG  A  +EY   REA+ IV +LKK"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301654",
+                  "accession": "301654",
+                  "title": "sp|Q43116|PDI_RICCO Protein disulfide-isomerase OS=Ricinus communis OX=3988 PE=2 SV=1"
+                }
+              ],
+              "len": 498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.25618e-31,
+                  "identity": 57,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 34,
+                  "hit_to": 140,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDSTNFTDTISKHDFIVVEFYAPWCGHCKKLRPEYEKAASILKSHDIPVVLAKVDANEEANKELATQYDIKGFPTLKILRNG-GKSIQEYKGPREADGIAEYLKK",
+                  "midline": "VL L  +NF + ++ H +++VEFYAPWCGHCK L PEY KAA  LK+    + LAKVDA EE++  LA QY ++G+PT+K  RNG   S +EY   READ I  +LKK"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301570",
+                  "accession": "301570",
+                  "title": "sp|Q9SRG3|PDI12_ARATH Protein disulfide isomerase-like 1-2 OS=Arabidopsis thaliana OX=3702 GN=PDIL1-2 PE=2 SV=1"
+                }
+              ],
+              "len": 508,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 1.91788e-31,
+                  "identity": 54,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 31,
+                  "hit_to": 137,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDHSNFTETISKHDFIVVEFYAPWCGHCQKLAPEYEKAASELSSHNPPLALAKIDASEEANKEFANEYKIQGFPTLKILRNG-GKSVQDYNGPREAEGIVTYLKK",
+                  "midline": "VL L  SNF E ++ H +++VEFYAPWCGHC+ LAPEY KAA +L +    + LAK+DA+EE++   A +Y ++G+PT+K  RNG   S ++Y   REA+ IV +LKK"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301620",
+                  "accession": "301620",
+                  "title": "sp|P34329|PDIA4_CAEEL Probable protein disulfide-isomerase A4 OS=Caenorhabditis elegans OX=6239 GN=C14B9.2 PE=3 SV=2"
+                }
+              ],
+              "len": 618,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 2.18267e-31,
+                  "identity": 56,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 149,
+                  "hit_to": 249,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VVTLTTENFDDFISNNELVLVEFYAPWCGHCKKLAPEYEKAAQKLKAQGSKVKLGKVDATIEKDLGTKYGVSGYPTMKIIRNGRRF---DYNGPREAAGIIKYM",
+                  "midline": "V+ L   NF + ++ ++ +LVEFYAPWCGHCK LAPEY KAA KLKA+GS+++L KVDAT E DL  +YGV GYPT+K  RNG      +Y   REA  I+ ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 103.605,
+                  "score": 257,
+                  "evalue": 5.56816e-26,
+                  "identity": 50,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 105,
+                  "hit_from": 38,
+                  "hit_to": 135,
+                  "align_len": 105,
+                  "gaps": 7,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLK",
+                  "hseq": "VVVLTDKNFDAFLKKNPSVLVKFYAPWCGHCKHLAPEYEKASSKV-----SIPLAKVDATVETELGKRFEIQGYPTLKFWKDG--KGPNDYDGGRDEAGIVEWVE",
+                  "midline": "V+VL   NF   L  +  +LV+FYAPWCGHCK LAPEY KA+ K+      I LAKVDAT E++L +++ ++GYPT+KF+++G    P +Y  GR+   IV W++"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301650",
+                  "accession": "301650",
+                  "title": "sp|P80284|PDI_HORVU Protein disulfide-isomerase OS=Hordeum vulgare OX=4513 GN=PDI PE=1 SV=2"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 4.56294e-31,
+                  "identity": 60,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 40,
+                  "hit_to": 146,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLHADNFDDAIGQHPFILVEFYAPWCGHCKSLAPEYEKAAQLLSKHDPAIVLAKVDANDEKNKPLAGKYEVQGFPTLKIFRNG-GKSIQEYKGPREAEGIVEYLKK",
+                  "midline": "VL L   NF +A+  H ++LVEFYAPWCGHCK+LAPEY KAA  L      I LAKVDA +E +  LA +Y V+G+PT+K FRNG   S +EY   REA+ IV +LKK"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301653",
+                  "accession": "301653",
+                  "title": "sp|P29828|PDI_MEDSA Protein disulfide-isomerase OS=Medicago sativa OX=3879 GN=PDI PE=2 SV=1"
+                }
+              ],
+              "len": 512,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 9.10547e-31,
+                  "identity": 58,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 35,
+                  "hit_to": 141,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEE--SDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDNTNFHDTVKKHDFIVVEFYAPWCGHCKKLAPEYEKAASILSTHEPPVVLAKVDANEEHNKDLASENDVKGFPTIKIFRNG-GKNIQEYKGPREAEGIVEYLKK",
+                  "midline": "VL L  +NF + +  H +++VEFYAPWCGHCK LAPEY KAA  L      + LAKVDA EE   DLA +  V+G+PTIK FRNG   + +EY   REA+ IV +LKK"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301608",
+                  "accession": "301608",
+                  "title": "sp|D3Z6P0|PDIA2_MOUSE Protein disulfide-isomerase A2 OS=Mus musculus OX=10090 GN=Pdia2 PE=1 SV=1"
+                }
+              ],
+              "len": 527,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.161,
+                  "score": 287,
+                  "evalue": 2.94592e-30,
+                  "identity": 54,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 47,
+                  "hit_to": 152,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "ILVLNHRTLSLALQEHSALMVEFYAPWCGHCKELAPEYSKAAALLAAESAVVTLAKVDGPAEPELTKEFEVVGYPTLKFFQNGNRTNPEEYAGPKTAEGIAEWLRR",
+                  "midline": "+LVL     + AL  H  L+VEFYAPWCGHCK LAPEY+KAA  L AE + + LAKVD   E +L +++ V GYPT+KFF+NG+  +P+EY   + A+ I  WL++"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301655",
+                  "accession": "301655",
+                  "title": "sp|P52589|PDI_WHEAT Protein disulfide-isomerase OS=Triticum aestivum OX=4565 GN=PDI PE=2 SV=1"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.161,
+                  "score": 287,
+                  "evalue": 2.96692e-30,
+                  "identity": 59,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 41,
+                  "hit_to": 147,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLHADNFDDAIAKHPFILVEFYAPWCGHCKSLAPEYEKAAQLLSKHDPAIVLAKVDANDEKNKPLAGKYEVQGFPTLKIFRSG-GKNIQEYKGPREAEGIVEYLKK",
+                  "midline": "VL L   NF +A+A H ++LVEFYAPWCGHCK+LAPEY KAA  L      I LAKVDA +E +  LA +Y V+G+PT+K FR+G   + +EY   REA+ IV +LKK"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301645",
+                  "accession": "301645",
+                  "title": "sp|D4B2L8|PDI_ARTBC Protein disulfide-isomerase OS=Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02626 PE=3 SV=1"
+                }
+              ],
+              "len": 523,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 1.42331e-29,
+                  "identity": 55,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 32,
+                  "hit_to": 133,
+                  "align_len": 106,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VHALKTDTFKDFIKEHDLVLAEFYAPWCGHCKALAPEYEKAATELKSKN--IQLAKVDCTEEADLCQEYGVEGYPTLKVFRGLDSHKP--YNGARKSPAITSYMIK",
+                  "midline": "V  L+   F + +  H  +L EFYAPWCGHCKALAPEY KAA +LK++   I+LAKVD TEE+DL Q+YGV GYPT+K FR  D+  P  Y   R++  I +++ K"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301652",
+                  "accession": "301652",
+                  "title": "sp|P52588|PDI_MAIZE Protein disulfide-isomerase OS=Zea mays OX=4577 GN=PDI PE=2 SV=1"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 1.74397e-29,
+                  "identity": 58,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 36,
+                  "hit_to": 142,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDVDSFDEAVAKHPFMVVEFYAPWCGHCKKLAPEYENAAKALSKHDPPIVLAKVDANEEKNRPLATKYEIQGFPTIKIFRDR-GKNIQEYKGPREADGIVDYLKK",
+                  "midline": "VL L   +F EA+A H +++VEFYAPWCGHCK LAPEY  AA  L      I LAKVDA EE +  LA +Y ++G+PTIK FR+    + +EY   READ IV++LKK"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301621",
+                  "accession": "301621",
+                  "title": "sp|P13667|PDIA4_HUMAN Protein disulfide-isomerase A4 OS=Homo sapiens OX=9606 GN=PDIA4 PE=1 SV=2"
+                }
+              ],
+              "len": 645,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.62,
+                  "score": 283,
+                  "evalue": 1.91955e-29,
+                  "identity": 56,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 179,
+                  "hit_to": 279,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "TLVLTKENFDEVVNDADIILVEFYAPWCGHCKKLAPEYEKAAKELSKRSPPIPLAKVDATAETDLAKRFDVSGYPTLKIFRKG---RPYDYNGPREKYGIVDYM",
+                  "midline": " LVL K NF E +     +LVEFYAPWCGHCK LAPEY KAA +L      I LAKVDAT E+DLA+++ V GYPT+K FR G    P +Y   RE   IV+++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 2.14145e-23,
+                  "identity": 48,
+                  "positive": 61,
+                  "query_from": 1,
+                  "query_to": 101,
+                  "hit_from": 64,
+                  "hit_to": 161,
+                  "align_len": 101,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIV",
+                  "hseq": "VLVLNDANFDNFVADKDTVLLEFYAPWCGHCKQFAPEYEKIANILKDKDPPIPVAKIDATSASVLASRFDVSGYPTIKILKKGQAV---DYEGSRTQEEIV",
+                  "midline": "VLVL  +NF   +A    +L+EFYAPWCGHCK  APEY K A  LK +   I +AK+DAT  S LA ++ V GYPTIK  + G      +Y   R  ++IV"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301569",
+                  "accession": "301569",
+                  "title": "sp|Q53LQ0|PDI11_ORYSJ Protein disulfide isomerase-like 1-1 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL1-1 PE=2 SV=1"
+                }
+              ],
+              "len": 512,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.464,
+                  "score": 280,
+                  "evalue": 3.04598e-29,
+                  "identity": 57,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 42,
+                  "hit_to": 148,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDADGFDEAVAKHPFMVVEFYAPWCGHCKKLAPEYEKAAQELSKHDPPIVLAKVDANDEKNKPLATKYEIQGFPTLKIFRN-QGKNIQEYKGPREAEGIVEYLKK",
+                  "midline": "VL L    F EA+A H +++VEFYAPWCGHCK LAPEY KAA +L      I LAKVDA +E +  LA +Y ++G+PT+K FRN    + +EY   REA+ IV +LKK"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301651",
+                  "accession": "301651",
+                  "title": "sp|P55059|PDI_HUMIN Protein disulfide-isomerase OS=Humicola insolens OX=34413 PE=1 SV=1"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.309,
+                  "score": 277,
+                  "evalue": 6.34e-29,
+                  "identity": 55,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 23,
+                  "hit_to": 124,
+                  "align_len": 106,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VVQLKKDTFDDFIKTNDLVLAEFFAPWCGHCKALAPEYEEAATTLKEKN--IKLAKVDCTEETDLCQQHGVEGYPTLKVFRGLDNVSP--YKGQRKAAAITSYMIK",
+                  "midline": "V+ L+K  F + +  +  +L EF+APWCGHCKALAPEY +AA  LK +   I+LAKVD TEE+DL QQ+GV GYPT+K FR  D  SP  Y   R+A  I +++ K"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301623",
+                  "accession": "301623",
+                  "title": "sp|P38659|PDIA4_RAT Protein disulfide-isomerase A4 OS=Rattus norvegicus OX=10116 GN=Pdia4 PE=1 SV=2"
+                }
+              ],
+              "len": 643,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.079,
+                  "score": 279,
+                  "evalue": 6.70859e-29,
+                  "identity": 54,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 177,
+                  "hit_to": 277,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "TLTLTKENFDDVVNNADIILVEFYAPWCGHCKKLAPEYEKAAKELSKRSPPIPLAKVDATEQTDLAKRFDVSGYPTLKIFRKG---RPFDYNGPREKYGIVDYM",
+                  "midline": " L L K NF + +     +LVEFYAPWCGHCK LAPEY KAA +L      I LAKVDATE++DLA+++ V GYPT+K FR G    P +Y   RE   IV+++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 1.37204e-22,
+                  "identity": 47,
+                  "positive": 58,
+                  "query_from": 1,
+                  "query_to": 101,
+                  "hit_from": 62,
+                  "hit_to": 159,
+                  "align_len": 101,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIV",
+                  "hseq": "VWVLNDENFDNFVADKDTVLLEFYAPWCGHCKQFAPEYEKIASTLKDNDPPIAVAKIDATSASMLASKFDVSGYPTIKILKKGQAV---DYDGSRTQEEIV",
+                  "midline": "V VL   NF   +A    +L+EFYAPWCGHCK  APEY K A  LK     I +AK+DAT  S LA ++ V GYPTIK  + G      +Y   R  ++IV"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301622",
+                  "accession": "301622",
+                  "title": "sp|P08003|PDIA4_MOUSE Protein disulfide-isomerase A4 OS=Mus musculus OX=10090 GN=Pdia4 PE=1 SV=3"
+                }
+              ],
+              "len": 638,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.309,
+                  "score": 277,
+                  "evalue": 1.2111e-28,
+                  "identity": 54,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 172,
+                  "hit_to": 272,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "TLSLTKDNFDDVVNNADIILVEFYAPWCGHCKKLAPEYEKAAKELSKRSPPIPLAKVDATEQTDLAKRFDVSGYPTLKIFRKG---RPFDYNGPREKYGIVDYM",
+                  "midline": " L L K NF + +     +LVEFYAPWCGHCK LAPEY KAA +L      I LAKVDATE++DLA+++ V GYPT+K FR G    P +Y   RE   IV+++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 1.55485e-22,
+                  "identity": 47,
+                  "positive": 58,
+                  "query_from": 1,
+                  "query_to": 101,
+                  "hit_from": 57,
+                  "hit_to": 154,
+                  "align_len": 101,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIV",
+                  "hseq": "VWVLNDGNFDNFVADKDTVLLEFYAPWCGHCKQFAPEYEKIASTLKDNDPPIAVAKIDATSASMLASKFDVSGYPTIKILKKGQAV---DYDGSRTQEEIV",
+                  "midline": "V VL   NF   +A    +L+EFYAPWCGHCK  APEY K A  LK     I +AK+DAT  S LA ++ V GYPTIK  + G      +Y   R  ++IV"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301572",
+                  "accession": "301572",
+                  "title": "sp|Q8VX13|PDI13_ARATH Protein disulfide isomerase-like 1-3 OS=Arabidopsis thaliana OX=3702 GN=PDIL1-3 PE=2 SV=1"
+                }
+              ],
+              "len": 579,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 109.383,
+                  "score": 272,
+                  "evalue": 4.40427e-28,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 101,
+                  "hit_to": 201,
+                  "align_len": 106,
+                  "gaps": 5,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VAVLTKDNFTEFVGNNSFAMVEFYAPWCGACQALTPEYAAAATELKGLAA---LAKIDATEEGDLAQKYEIQGFPTVFLFVDGEMR--KTYEGERTKDGIVTWLKK",
+                  "midline": "V VL K NF E +  + + +VEFYAPWCG C+AL PEYA AA +LK   +   LAK+DATEE DLAQ+Y ++G+PT+  F +G+    K Y   R  D IV WLKK"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301571",
+                  "accession": "301571",
+                  "title": "sp|Q7XRB5|PDI12_ORYSJ Protein disulfide isomerase-like 1-2 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL1-2 PE=2 SV=2"
+                }
+              ],
+              "len": 517,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.227,
+                  "score": 269,
+                  "evalue": 9.29154e-28,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 34,
+                  "hit_to": 140,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEE--SDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDAGNFSEVVAKHPFIVVKFYAPWCGHCKQLAPEYEKAASILRKNELPVVLAKVDAYNERNKELKDKYGVYSYPTIKIMKNGGS-DVRGYGGPREADGIVEYLKR",
+                  "midline": "VL L   NF+E +A H +++V+FYAPWCGHCK LAPEY KAA  L+     + LAKVDA  E   +L  +YGV  YPTIK  +NG +   + Y   READ IV +LK+"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301580",
+                  "accession": "301580",
+                  "title": "sp|Q10057|PDI1_SCHPO Putative protein disulfide-isomerase C1F5.02 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC1F5.02 PE=3 SV=1"
+                }
+              ],
+              "len": 492,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.227,
+                  "score": 269,
+                  "evalue": 1.00259e-27,
+                  "identity": 50,
+                  "positive": 69,
+                  "query_from": 4,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 125,
+                  "align_len": 103,
+                  "gaps": 4,
+                  "qseq": "LRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VNKEGLNELITADKVLMVKFYAPWCGHCKALAPEYESAADELEKDG--ISLVEVDCTEEGDLCSEYSIRGYPTLNVFKNGKQIS--QYSGPRKHDALVKYMRK",
+                  "midline": "+ K    E + A K L+V+FYAPWCGHCKALAPEY  AA +L+ +G  I L +VD TEE DL  +Y +RGYPT+  F+NG   S  +Y+  R+ D +V +++K"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301619",
+                  "accession": "301619",
+                  "title": "sp|Q29RV1|PDIA4_BOVIN Protein disulfide-isomerase A4 OS=Bos taurus OX=9913 GN=PDIA4 PE=2 SV=1"
+                }
+              ],
+              "len": 643,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.071,
+                  "score": 266,
+                  "evalue": 3.10168e-27,
+                  "identity": 54,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 178,
+                  "hit_to": 278,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "TLVLTKDNFDEVVNDADIILVEFYAPWCGHCKKLAPEYEKAAKELSKSSPPIPLAKVDAIAETDLAKRFDVSSYPTLKIFRKGKAFS---YNGPREKYGIVDYM",
+                  "midline": " LVL K NF E +     +LVEFYAPWCGHCK LAPEY KAA +L      I LAKVDA  E+DLA+++ V  YPT+K FR G   S   Y   RE   IV+++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 99.7525,
+                  "score": 247,
+                  "evalue": 1.41589e-24,
+                  "identity": 49,
+                  "positive": 64,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 63,
+                  "hit_to": 165,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLILNDANFDNFVADKDTVLLEFYAPWCGHCKQFAPEYEKIAATLKENDPPIPVAKIDATSESALASRFDVSGYPTIKILKKGQEV---DYEGSRTQEEIVAKVKE",
+                  "midline": "VL+L  +NF   +A    +L+EFYAPWCGHCK  APEY K A  LK     I +AK+DAT ES LA ++ V GYPTIK  + G      +Y   R  ++IV  +K+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301574",
+                  "accession": "301574",
+                  "title": "sp|Q67IX6|PDI14_ORYSJ Protein disulfide isomerase-like 1-4 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL1-4 PE=2 SV=1"
+                }
+              ],
+              "len": 563,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 3.84332e-26,
+                  "identity": 55,
+                  "positive": 78,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 75,
+                  "hit_to": 177,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VFLLSAANFSDFLASHRHVMVEFYAPWCAHCQALAPDYAAAAADLSPLAHQVALAKVDATEDTDLAQKYDVQGFPTILFFIDG---VPKDYNGARTKEAIVSWVNK",
+                  "midline": "V +L  +NF++ LA+H++++VEFYAPWC HC+ALAP+YA AA  L     ++ LAKVDATE++DLAQ+Y V+G+PTI FF +G    PK+Y   R  + IV+W+ K"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|123900",
+                  "accession": "123900",
+                  "title": "sp|P38658|ERP60_SCHMA Probable protein disulfide-isomerase ER-60 OS=Schistosoma mansoni OX=6183 PE=3 SV=1"
+                }
+              ],
+              "len": 484,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.219,
+                  "score": 256,
+                  "evalue": 6.26228e-26,
+                  "identity": 48,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 19,
+                  "hit_to": 120,
+                  "align_len": 104,
+                  "gaps": 2,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VLELTKDNFHSELKSIPVALVKFYAPWCGHCKKLAPEFTSAAQIISGKTNDVKLVKVDCTTQESICSEFGVSGYPTLKIFRNGDLDG--EYNGPRNANGIANYM",
+                  "midline": "VL L K NF   L +    LV+FYAPWCGHCK LAPE+  AA  +  + ++++L KVD T +  +  ++GV GYPT+K FRNGD     EY   R A+ I N++"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301646",
+                  "accession": "301646",
+                  "title": "sp|Q12730|PDI_ASPNG Protein disulfide-isomerase OS=Aspergillus niger OX=5061 GN=pdiA PE=2 SV=1"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.219,
+                  "score": 256,
+                  "evalue": 6.32754e-26,
+                  "identity": 50,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 128,
+                  "align_len": 106,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VISLDQDTFESFMNEHGLVLAEFFAPWCGHCKALAPKYEEAATELKAKN--IPLVKVDCTAEEDLCRSQGVEGYPTLKIFRGVDSSKP--YQGARQTESIVSYMIK",
+                  "midline": "V+ L +  F   +  H  +L EF+APWCGHCKALAP+Y +AA +LKA+   I L KVD T E DL +  GV GYPT+K FR  D++ P  Y   R+ + IV+++ K"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301584",
+                  "accession": "301584",
+                  "title": "sp|Q942L2|PDI22_ORYSJ Protein disulfide isomerase-like 2-2 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL2-2 PE=2 SV=1"
+                }
+              ],
+              "len": 371,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.7525,
+                  "score": 247,
+                  "evalue": 4.09842e-25,
+                  "identity": 52,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 155,
+                  "hit_to": 257,
+                  "align_len": 105,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VVVLGPDNFDSIVLDENKDILVEFYAPWCGHCKHLAPIYEKLASVYKLDDG-VVIANLDADKHKDLAEKYGVSGYPTLKFFPKGNKAG-EDYDGGRELDDFVKFI",
+                  "midline": "V+VL   NF    L  +K +LVEFYAPWCGHCK LAP Y K A   K +   + +A +DA +  DLA++YGV GYPT+KFF  G+ A  ++Y  GRE DD V ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 2.3996e-21,
+                  "identity": 45,
+                  "positive": 62,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 37,
+                  "hit_to": 138,
+                  "align_len": 104,
+                  "gaps": 2,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VVALTESTFEKEVGQDRGALVEFYAPWCGHCKKLAPEYEKLGASFKKAKS-VFIAKVDCDEHKSVCSKYGVSGYPTIQWFPKG-SLEPKKYEGQRSAEALAEFV",
+                  "midline": "V+ L +S F + +   +  LVEFYAPWCGHCK LAPEY K     K   S + +AKVD  E   +  +YGV GYPTI++F  G +  PK+Y   R A+ +  ++"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301629",
+                  "accession": "301629",
+                  "title": "sp|Q9V438|PDIA6_DROME Protein disulfide-isomerase A6 homolog OS=Drosophila melanogaster OX=7227 GN=CaBP1 PE=1 SV=1"
+                }
+              ],
+              "len": 433,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.138,
+                  "score": 248,
+                  "evalue": 4.67555e-25,
+                  "identity": 53,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 103,
+                  "hit_from": 158,
+                  "hit_to": 260,
+                  "align_len": 106,
+                  "gaps": 6,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGD--TASPKEYTAGREADDIVNW",
+                  "hseq": "VIELTEDNFDKLVLNSDDIWLVEFFAPWCGHCKNLAPEWAKAAKELKG---KVKLGALDATAHQSKAAEYNVRGYPTIKFFPAGSKRASDAQEYDGGRTASDIVSW",
+                  "midline": "V+ L + NF +  L +    LVEF+APWCGHCK LAPE+AKAA +LK    +++L  +DAT     A +Y VRGYPTIKFF  G    +  +EY  GR A DIV+W"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|310247",
+                  "accession": "310247",
+                  "title": "sp|Q69ST6|PID13_ORYSJ Protein disulfide isomerase-like 1-3 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL1-3 PE=2 SV=1"
+                }
+              ],
+              "len": 545,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.7525,
+                  "score": 247,
+                  "evalue": 1.02141e-24,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 80,
+                  "hit_to": 186,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESD--LAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLTLDAGNFTEVVGAHDFIVVEFYAPWCGHCNQLAPEYEAAAAALRSHDPPVVLAKVDASADLNRGLAGEHGVQGYPTIRILRDRGARS-HNYAGPRDAAGIVAYLKR",
+                  "midline": "VL L   NF E + AH +++VEFYAPWCGHC  LAPEY  AA  L++    + LAKVDA+ + +  LA ++GV+GYPTI+  R+    S   Y   R+A  IV +LK+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301656",
+                  "accession": "301656",
+                  "title": "sp|P17967|PDI_YEAST Protein disulfide-isomerase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PDI1 PE=1 SV=2"
+                }
+              ],
+              "len": 522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 2.69362e-24,
+                  "identity": 44,
+                  "positive": 66,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 34,
+                  "hit_to": 137,
+                  "align_len": 106,
+                  "gaps": 2,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VVKLATDSFNEYIQSHDLVLAEFFAPWCGHCKNMAPEYVKAAETLVEKN--ITLAQIDCTENQDLCMEHNIPGFPSLKIFKNSDVNNSIDYEGPRTAEAIVQFMIK",
+                  "midline": "V+ L   +F E + +H  +L EF+APWCGHCK +APEY KAA  L  +   I LA++D TE  DL  ++ + G+P++K F+N D  +  +Y   R A+ IV ++ K"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301631",
+                  "accession": "301631",
+                  "title": "sp|P38661|PDIA6_MEDSA Probable protein disulfide-isomerase A6 OS=Medicago sativa OX=3879 PE=2 SV=1"
+                }
+              ],
+              "len": 364,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.0561,
+                  "score": 240,
+                  "evalue": 3.79158e-24,
+                  "identity": 50,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 149,
+                  "hit_to": 251,
+                  "align_len": 105,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEA-LAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VVVLTPETFNEVVLDGTKDVLVEFYAPWCGHCKSLAPIYEKVAAVFKSE-DDVVIANLDADKYRDLAEKYDVSGFPTLKFFPKGNKAG-EDYGGGRDLDDFVAFI",
+                  "midline": "V+VL    F E  L   K +LVEFYAPWCGHCK+LAP Y K A   K+E  ++ +A +DA +  DLA++Y V G+PT+KFF  G+ A  ++Y  GR+ DD V ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 9.05732e-21,
+                  "identity": 44,
+                  "positive": 60,
+                  "query_from": 4,
+                  "query_to": 104,
+                  "hit_from": 34,
+                  "hit_to": 132,
+                  "align_len": 101,
+                  "gaps": 2,
+                  "qseq": "LRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "LTEENFEKEVGHDKGALVEFYAPWCGHCKKLAPEYEKLPNSFKKAKS-VLIAKVDCDEHKSVCSKYGVSGYPTIQWFPKG-SLEPKKFEGPRTAESLAEFV",
+                  "midline": "L + NF + +   K  LVEFYAPWCGHCK LAPEY K     K   S + +AKVD  E   +  +YGV GYPTI++F  G +  PK++   R A+ +  ++"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301647",
+                  "accession": "301647",
+                  "title": "sp|Q00248|PDI_ASPOR Protein disulfide-isomerase OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=pdiA PE=3 SV=1"
+                }
+              ],
+              "len": 515,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.0561,
+                  "score": 240,
+                  "evalue": 9.74152e-24,
+                  "identity": 49,
+                  "positive": 64,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 31,
+                  "hit_to": 132,
+                  "align_len": 106,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VVSLTGDTFETFVKEHDLVLAEFFAPWCGHCKALAPKYEQAATELKEKN--IPLVKVDCTEEEALCRDQGVEGYPTLKIFRGLDAVKP--YQGARQTEAIVSYMVK",
+                  "midline": "V+ L    F   +  H  +L EF+APWCGHCKALAP+Y +AA +LK +   I L KVD TEE  L +  GV GYPT+K FR  D   P  Y   R+ + IV+++ K"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301617",
+                  "accession": "301617",
+                  "title": "sp|Q5RDG4|PDIA3_PONAB Protein disulfide-isomerase A3 OS=Pongo abelii OX=9601 GN=PDIA3 PE=2 SV=1"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.6709,
+                  "score": 239,
+                  "evalue": 1.44893e-23,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 130,
+                  "align_len": 109,
+                  "gaps": 8,
+                  "qseq": "VLVLRKSNFAEALA---AHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELTDDNFESRISDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKG---IVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGA--YDGPRTADGIVSHLKK",
+                  "midline": "VL L   NF   ++   +   +LVEF+APWCGHCK LAPEY  AA +LK     + LAKVD T  ++   +YGV GYPT+K FR+G+ A    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301613",
+                  "accession": "301613",
+                  "title": "sp|P30101|PDIA3_HUMAN Protein disulfide-isomerase A3 OS=Homo sapiens OX=9606 GN=PDIA3 PE=1 SV=4"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.6709,
+                  "score": 239,
+                  "evalue": 1.44893e-23,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 130,
+                  "align_len": 109,
+                  "gaps": 8,
+                  "qseq": "VLVLRKSNFAEALA---AHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELTDDNFESRISDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKG---IVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGA--YDGPRTADGIVSHLKK",
+                  "midline": "VL L   NF   ++   +   +LVEF+APWCGHCK LAPEY  AA +LK     + LAKVD T  ++   +YGV GYPT+K FR+G+ A    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301581",
+                  "accession": "301581",
+                  "title": "sp|O22263|PDI21_ARATH Protein disulfide-isomerase like 2-1 OS=Arabidopsis thaliana OX=3702 GN=PDIL2-1 PE=2 SV=1"
+                }
+              ],
+              "len": 361,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.1301,
+                  "score": 235,
+                  "evalue": 1.70657e-23,
+                  "identity": 49,
+                  "positive": 66,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 143,
+                  "hit_to": 245,
+                  "align_len": 105,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VVVLTPDNFDEIVLDQNKDVLVEFYAPWCGHCKSLAPTYEKVATVFKQEEG-VVIANLDADAHKALGEKYGVSGFPTLKFFPK-DNKAGHDYDGGRDLDDFVSFI",
+                  "midline": "V+VL   NF E  L  +K +LVEFYAPWCGHCK+LAP Y K A   K E   + +A +DA     L ++YGV G+PT+KFF   D  +  +Y  GR+ DD V+++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 9.38654e-21,
+                  "identity": 44,
+                  "positive": 61,
+                  "query_from": 4,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 128,
+                  "align_len": 103,
+                  "gaps": 2,
+                  "qseq": "LRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "LTDDSFEKEVGKDKGALVEFYAPWCGHCKKLAPEYEKLGASFKKAKS-VLIAKVDCDEQKSVCTKYGVSGYPTIQWFPKG-SLEPQKYEGPRNAEALAEYVNK",
+                  "midline": "L   +F + +   K  LVEFYAPWCGHCK LAPEY K     K   S + +AKVD  E+  +  +YGV GYPTI++F  G +  P++Y   R A+ +  ++ K"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301612",
+                  "accession": "301612",
+                  "title": "sp|Q4VIT4|PDIA3_CHLAE Protein disulfide-isomerase A3 OS=Chlorocebus aethiops OX=9534 GN=PDIA3 PE=1 SV=1"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 1.87409e-23,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 130,
+                  "align_len": 109,
+                  "gaps": 8,
+                  "qseq": "VLVLRKSNFAEALA---AHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELTDDNFESRVSDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKG---IVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGA--YDGPRTADGIVSHLKK",
+                  "midline": "VL L   NF   ++   +   +LVEF+APWCGHCK LAPEY  AA +LK     + LAKVD T  ++   +YGV GYPT+K FR+G+ A    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301618",
+                  "accession": "301618",
+                  "title": "sp|P11598|PDIA3_RAT Protein disulfide-isomerase A3 OS=Rattus norvegicus OX=10116 GN=Pdia3 PE=1 SV=2"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 1.96913e-23,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 130,
+                  "align_len": 109,
+                  "gaps": 8,
+                  "qseq": "VLVLRKSNFAEALA---AHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELTDENFESRVSDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKG---IVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGA--YDGPRTADGIVSHLKK",
+                  "midline": "VL L   NF   ++   +   +LVEF+APWCGHCK LAPEY  AA +LK     + LAKVD T  ++   +YGV GYPT+K FR+G+ A    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301610",
+                  "accession": "301610",
+                  "title": "sp|P38657|PDIA3_BOVIN Protein disulfide-isomerase A3 OS=Bos taurus OX=9913 GN=PDIA3 PE=2 SV=1"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 2.06899e-23,
+                  "identity": 52,
+                  "positive": 66,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 130,
+                  "align_len": 109,
+                  "gaps": 8,
+                  "qseq": "VLVLRKSNFAEALA---AHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELTDDNFESRITDTGSSGLMLVEFFAPWCGHCKKLAPEYEAAATRLKG---IVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEESGA--YDGPRTADGIVSHLKK",
+                  "midline": "VL L   NF   +    +   +LVEF+APWCGHCK LAPEY  AA +LK     + LAKVD T  ++   +YGV GYPT+K FR+G+ +    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301615",
+                  "accession": "301615",
+                  "title": "sp|P27773|PDIA3_MOUSE Protein disulfide-isomerase A3 OS=Mus musculus OX=10090 GN=Pdia3 PE=1 SV=2"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 2.19551e-23,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 130,
+                  "align_len": 109,
+                  "gaps": 8,
+                  "qseq": "VLVLRKSNFAEALA---AHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELTDENFESRVSDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKG---IVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGA--YDGPRTADGIVSHLKK",
+                  "midline": "VL L   NF   ++   +   +LVEF+APWCGHCK LAPEY  AA +LK     + LAKVD T  ++   +YGV GYPT+K FR+G+ A    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|123893",
+                  "accession": "123893",
+                  "title": "sp|Q92249|ERP38_NEUCR Protein disulfide-isomerase erp38 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=erp38 PE=2 SV=2"
+                }
+              ],
+              "len": 369,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.1301,
+                  "score": 235,
+                  "evalue": 2.20932e-23,
+                  "identity": 46,
+                  "positive": 68,
+                  "query_from": 4,
+                  "query_to": 104,
+                  "hit_from": 25,
+                  "hit_to": 125,
+                  "align_len": 102,
+                  "gaps": 2,
+                  "qseq": "LRKSNFAEA-LAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "LIPSNFDDVVLKSGKPTLVEFFAPWCGHCKNLAPVYEELATALEYAKDKVQIAKVDADAERALGKRFGVQGFPTLKFF-DGKSEQPVDYKGGRDLDSLSNFI",
+                  "midline": "L  SNF +  L + K  LVEF+APWCGHCK LAP Y + A  L+    ++++AKVDA  E  L +++GV+G+PT+KFF +G +  P +Y  GR+ D + N++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 5.50059e-21,
+                  "identity": 48,
+                  "positive": 62,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 143,
+                  "hit_to": 246,
+                  "align_len": 106,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEES--DLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VNILNDATIKGAIGGDKNVLVAFTAPWCGHCKNLAPTWEKLAATF-ASDPEITIAKVDADAPTGKKSAAEYGVSGFPTIKFFPKGST-TPEDYNGGRSEADLVKFL",
+                  "midline": "V +L  +    A+   K +LV F APWCGHCK LAP + K A    A   EI +AKVDA   +    A +YGV G+PTIKFF  G T +P++Y  GR   D+V +L"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301611",
+                  "accession": "301611",
+                  "title": "sp|Q8JG64|PDIA3_CHICK Protein disulfide-isomerase A3 OS=Gallus gallus OX=9031 GN=PDIA3 PE=2 SV=1"
+                }
+              ],
+              "len": 505,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 2.26164e-23,
+                  "identity": 53,
+                  "positive": 66,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 27,
+                  "hit_to": 128,
+                  "align_len": 107,
+                  "gaps": 6,
+                  "qseq": "VLVLRKSNFAEALAAHKYL-LVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VVELSDADFESGLAERPGLVLVEFFAPWCGHCKRLAPEYEAAATRLKG---IVPLVKVDCTANSNTCNKYGVSGYPTLKIFRDGEESG--TYDGPRTADGIVSHLKK",
+                  "midline": "V+ L  ++F   LA    L LVEF+APWCGHCK LAPEY  AA +LK     + L KVD T  S+   +YGV GYPT+K FR+G+ +    Y   R AD IV+ LKK"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301634",
+                  "accession": "301634",
+                  "title": "sp|Q5R6T1|PDIA6_PONAB Protein disulfide-isomerase A6 OS=Pongo abelii OX=9601 GN=PDIA6 PE=2 SV=1"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.5153,
+                  "score": 236,
+                  "evalue": 2.56449e-23,
+                  "identity": 49,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 162,
+                  "hit_to": 263,
+                  "align_len": 104,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEG-SEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVN",
+                  "hseq": "VIELTDDSFDKNVLDSEDVWMVEFYAPWCGHCKNLEPEWAAAASEVKEQTKGKVKLAAVDATVNQVLASRYGIRGFPTIKIFQKGE--SPVDYDGGRTRSDIVS",
+                  "midline": "V+ L   +F +  L +    +VEFYAPWCGHCK L PE+A AA ++K +   +++LA VDAT    LA +YG+RG+PTIK F+ G+  SP +Y  GR   DIV+"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301630",
+                  "accession": "301630",
+                  "title": "sp|Q15084|PDIA6_HUMAN Protein disulfide-isomerase A6 OS=Homo sapiens OX=9606 GN=PDIA6 PE=1 SV=1"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.5153,
+                  "score": 236,
+                  "evalue": 2.80743e-23,
+                  "identity": 49,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 162,
+                  "hit_to": 263,
+                  "align_len": 104,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEG-SEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVN",
+                  "hseq": "VIELTDDSFDKNVLDSEDVWMVEFYAPWCGHCKNLEPEWAAAASEVKEQTKGKVKLAAVDATVNQVLASRYGIRGFPTIKIFQKGE--SPVDYDGGRTRSDIVS",
+                  "midline": "V+ L   +F +  L +    +VEFYAPWCGHCK L PE+A AA ++K +   +++LA VDAT    LA +YG+RG+PTIK F+ G+  SP +Y  GR   DIV+"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301593",
+                  "accession": "301593",
+                  "title": "sp|Q0JD42|PDI52_ORYSJ Protein disulfide isomerase-like 5-2 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL5-2 PE=2 SV=2"
+                }
+              ],
+              "len": 423,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 5.44525e-23,
+                  "identity": 51,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 44,
+                  "hit_to": 146,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VIELDESSFEAALGAIDYLFVDFYAPWCGHCKRLAPELDEAAPVLAGLSEPIIVAKVNADKYRKLGSKYGVDGFPTLMLFIHG---VPIEYTGSRKADLLVRNLNK",
+                  "midline": "V+ L +S+F  AL A  YL V+FYAPWCGHCK LAPE  +AA  L      I +AKV+A +   L  +YGV G+PT+  F +G    P EYT  R+AD +V  L K"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301628",
+                  "accession": "301628",
+                  "title": "sp|Q11067|PDIA6_CAEEL Protein disulfide-isomerase A6 homolog OS=Caenorhabditis elegans OX=6239 GN=pdi-6 PE=3 SV=1"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 6.40013e-23,
+                  "identity": 45,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 103,
+                  "hit_from": 166,
+                  "hit_to": 267,
+                  "align_len": 105,
+                  "gaps": 5,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNG-DTASPKEYTAGREADDIVNW",
+                  "hseq": "VVELTDANFEDLVLNSKDIWLVEFFAPWCGHCKSLEPQWKAAASELKG---KVRLGALDATVHTVVANKFAIRGFPTIKYFAPGSDVSDAQDYDGGRQSSDIVAW",
+                  "midline": "V+ L  +NF +  L +    LVEF+APWCGHCK+L P++  AA +LK    ++RL  +DAT  + +A ++ +RG+PTIK+F  G D +  ++Y  GR++ DIV W"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301595",
+                  "accession": "301595",
+                  "title": "sp|Q0E0I1|PDI53_ORYSJ Protein disulfide isomerase-like 5-3 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL5-3 PE=3 SV=1"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 6.48135e-23,
+                  "identity": 50,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 106,
+                  "hit_from": 48,
+                  "hit_to": 150,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWLKK",
+                  "hseq": "VLELDDGNFDAAVRAAGLLFVDFYAPWCGHCKRLAPQLDEAAPVLAGLSTPIVVAKVNADKYKKLGSKYGVDGFPTLMLFDHG---TPTEYTGSRKADLLVENLKK",
+                  "midline": "VL L   NF  A+ A   L V+FYAPWCGHCK LAP+  +AA  L    + I +AKV+A +   L  +YGV G+PT+  F +G   +P EYT  R+AD +V  LKK"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301632",
+                  "accession": "301632",
+                  "title": "sp|P38660|PDIA6_MESAU Protein disulfide-isomerase A6 OS=Mesocricetus auratus OX=10036 GN=PDIA6 PE=1 SV=1"
+                }
+              ],
+              "len": 439,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 1.28537e-22,
+                  "identity": 48,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 162,
+                  "hit_to": 263,
+                  "align_len": 104,
+                  "gaps": 4,
+                  "qseq": "VLVLRKSNFAE-ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEG-SEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVN",
+                  "hseq": "VIELTDDTFDKNVLDSDDVWMVEFYAPWCGHCKNLEPEWATAATEVKEQTKGKVKLAAVDATVNQVLANRYGIRGFPTIKIFQKGE--APVDYDGGRTRSDIVS",
+                  "midline": "V+ L    F +  L +    +VEFYAPWCGHCK L PE+A AA ++K +   +++LA VDAT    LA +YG+RG+PTIK F+ G+  +P +Y  GR   DIV+"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301635",
+                  "accession": "301635",
+                  "title": "sp|Q63081|PDIA6_RAT Protein disulfide-isomerase A6 OS=Rattus norvegicus OX=10116 GN=Pdia6 PE=1 SV=2"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 1.79911e-22,
+                  "identity": 45,
+                  "positive": 62,
+                  "query_from": 12,
+                  "query_to": 102,
+                  "hit_from": 174,
+                  "hit_to": 263,
+                  "align_len": 92,
+                  "gaps": 3,
+                  "qseq": "ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEG-SEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVN",
+                  "hseq": "VLDSEDVWMVEFYAPWCGHCKNLEPEWAAAATEVKEQTKGKVKLAAVDATVNQVLASRYGIKGFPTIKIFQKGE--SPVDYDGGRTRSDIVS",
+                  "midline": " L +    +VEFYAPWCGHCK L PE+A AA ++K +   +++LA VDAT    LA +YG++G+PTIK F+ G+  SP +Y  GR   DIV+"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301582",
+                  "accession": "301582",
+                  "title": "sp|Q75M08|PDI21_ORYSJ Protein disulfide isomerase-like 2-1 OS=Oryza sativa subsp. japonica OX=39947 GN=PDIL2-1 PE=2 SV=2"
+                }
+              ],
+              "len": 366,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.4337,
+                  "score": 228,
+                  "evalue": 1.91095e-22,
+                  "identity": 49,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 150,
+                  "hit_to": 252,
+                  "align_len": 105,
+                  "gaps": 3,
+                  "qseq": "VLVLRKSNF-AEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VVVLTPETFDSVVLDETKDVLVEFYAPWCGHCKHLAPIYEKLASVYKQDEG-VVIANLDADKHTALAEKYGVSGFPTLKFFPKGNKAG-EDYDGGRELDDFVKFI",
+                  "midline": "V+VL    F +  L   K +LVEFYAPWCGHCK LAP Y K A   K +   + +A +DA + + LA++YGV G+PT+KFF  G+ A  ++Y  GRE DD V ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 3.42784e-22,
+                  "identity": 46,
+                  "positive": 62,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 32,
+                  "hit_to": 133,
+                  "align_len": 104,
+                  "gaps": 2,
+                  "qseq": "VLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVNWL",
+                  "hseq": "VLALTESTFEKEVGQDRAALVEFYAPWCGHCKKLAPEYEKLGASFKKAKS-VLIAKVDCDEHKSVCSKYGVSGYPTIQWFPKG-SLEPKKYEGQRTAEALAEYV",
+                  "midline": "VL L +S F + +   +  LVEFYAPWCGHCK LAPEY K     K   S + +AKVD  E   +  +YGV GYPTI++F  G +  PK+Y   R A+ +  ++"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|301633",
+                  "accession": "301633",
+                  "title": "sp|Q922R8|PDIA6_MOUSE Protein disulfide-isomerase A6 OS=Mus musculus OX=10090 GN=Pdia6 PE=1 SV=3"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 1.9299e-22,
+                  "identity": 45,
+                  "positive": 62,
+                  "query_from": 12,
+                  "query_to": 102,
+                  "hit_from": 174,
+                  "hit_to": 263,
+                  "align_len": 92,
+                  "gaps": 3,
+                  "qseq": "ALAAHKYLLVEFYAPWCGHCKALAPEYAKAAGKLKAEG-SEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGREADDIVN",
+                  "hseq": "VLDSEDVWMVEFYAPWCGHCKNLEPEWAAAATEVKEQTKGKVKLAAVDATVNQVLASRYGIKGFPTIKIFQKGE--SPVDYDGGRTRSDIVS",
+                  "midline": " L +    +VEFYAPWCGHCK L PE+A AA ++K +   +++LA VDAT    LA +YG++G+PTIK F+ G+  SP +Y  GR   DIV+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 563972,
+            "db_len": 203185243,
+            "hsp_len": 75,
+            "eff_space": 4987507633,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}
