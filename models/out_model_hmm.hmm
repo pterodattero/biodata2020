@@ -1,5 +1,5 @@
 HMMER3/f [3.3.1 | Jul 2020]
-NAME  msa.aln-fasta
+NAME  msa-jalview
 LENG  105
 ALPH  amino
 RF    no
@@ -7,7 +7,7 @@ MM    no
 CONS  yes
 CS    no
 MAP   yes
-DATE  Thu Jan  7 18:21:06 2021
+DATE  Wed Jan 27 11:18:53 2021
 NSEQ  115
 EFFN  1.217804
 CKSUM 3946512571

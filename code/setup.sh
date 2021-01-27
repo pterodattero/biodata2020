@@ -20,25 +20,10 @@ cd ../binx/hmmer-3.3.1/ && ./configure && make
 echo "Getting T-Coffee wrapper..."
 wget ../code/ https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/python/tcoffee.py
 
-echo "Getting PDBs..."
-wget -P ../data/ ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/csv/uniprot_pdb.csv.gz
-tar -xf ../data/uniprot_pdb.csv.gz ../data/
-rm ../data/uniprot_pdb.csv.gz
-
 echo "Installing TM-Align..."
 wget -P ../binx/ https://zhanglab.ccmb.med.umich.edu/TM-align/TMalign.gz
 gunzip ../binx/TMalign.gz
 rm ../binx/TMalign.gz
 sudo chmod 777 ../binx/TMalign
-
-echo "Getting CATH DB..."
-wget -P ../data/ ftp://orengoftp.biochem.ucl.ac.uk/cath/releases/daily-release/newest/cath-b-newest-all.gz
-wget -P ../data/ ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/csv/pdb_chain_cath_uniprot.csv.gz
-
-echo "Getting SwissProt DB .xml file..."
-wget -P ../data/ ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz
-
-echo "Getting gene ontology..."
-wget -P ../data/ http://purl.obolibrary.org/obo/go.obo
 
 echo "Done."
