@@ -1,11 +1,12 @@
 # Biological Data Project
 MsC in Data Science - University of Padua
+
 Commissioned by Prof. S. Tosatto and Prof. D. Piovesan for the Biological Data course (a.y. 2020/2021) 
 
 ## Files and folders
 
 The main folders are:
-* `binx/`, tha contains the binary software such as BLAST and HMMER that must be installed using the `setup.sh`. The folder itself is not present in the repository but it is created by the latter script;
+* `binx/`, tha contains the binary software such as BLAST and HMMER that must be installed using the `setup.sh`. Note that all the files but `mTM-align` (which download link is obfuscated) are retrieved by `setup.sh`, thus they aren't present in this remote repository; 
 * `code/`, that contains all the Python and bash scripts and the main notebook;
 * `data/`;
 * `results/`.
@@ -18,7 +19,7 @@ All the other folders contain auxiliary files, data and outputs that are that ar
 ## Requirements
 
 The script `setup.sh`, which is meant to install all the compiled code, must be ran on a Linux x64 machine. The other bash commands are feasible also for Unix-like systems.
-All the rest of the code can be executed on every machine running Python 3. The whole project can be visualized on DeepNote at the following ![link](https://deepnote.com/project/dab01843-4697-4e38-8601-caa4706bd153).
+All the rest of the code can be executed on every machine running Python 3. The whole project can be visualized on DeepNote at the following [link](https://deepnote.com/project/dab01843-4697-4e38-8601-caa4706bd153).
 
 The parts that require the software installed by `setup.sh` can be skipped using the precomputed outputs provided in `results/` and `models/`.
 

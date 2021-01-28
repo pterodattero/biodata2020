@@ -1,0 +1,10 @@
+../data/structure/pdb1aiu.ent
+../data/structure/pdb1mek.ent
+../data/structure/pdb1ep7.ent
+../data/structure/pdb3dyr.ent
+../data/structure/pdb1fo5.ent
+../data/structure/pdb1gh2.ent
+../data/structure/pdb1nsw.ent
+../data/structure/pdb1t00.ent
+../data/structure/pdb1wmj.ent
+../data/structure/pdb3w8j.ent
