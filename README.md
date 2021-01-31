@@ -11,7 +11,8 @@ The main folders are:
 * `data/`;
 * `results/`.
 
-The project main file is the Jupyter Notebook `project.ipynb` contained in `../code` directory. It provides all the steps and supporting documentation, so the reader can start from here. 
+The project main file is the Jupyter Notebook `project.ipynb` contained in `../code` directory. It provides all the steps and supporting documentation, so the reader can start from here.
+In addition, you can find a PDF report giving a high level explanation of the work. 
 
 All the other folders contain auxiliary files, data and outputs that are that are entirely managed by the notebook code.
 
